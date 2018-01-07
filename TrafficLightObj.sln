@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TrafficLightHalf", "..\..\..\Arduino\TrafficLightHalf\TrafficLightHalf.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TrafficLight", "..\..\..\Arduino\TrafficLight\TrafficLight.vcxproj", "{77A832ED-7CFC-4A5A-B509-34088275CE5E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Traffic Light Object", "Traffic Light Object", "{66E8454F-7D00-4247-A696-9DC881CB9623}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Arduino\libraries\TrafficLightObj\keywords.txt = ..\..\..\Arduino\libraries\TrafficLightObj\keywords.txt
+		..\..\..\Arduino\libraries\TrafficLightObj\TrafficLightObj.cpp = ..\..\..\Arduino\libraries\TrafficLightObj\TrafficLightObj.cpp
+		..\..\..\Arduino\libraries\TrafficLightObj\TrafficLightObj.h = ..\..\..\Arduino\libraries\TrafficLightObj\TrafficLightObj.h
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.ActiveCfg = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.Build.0 = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.ActiveCfg = Release|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.Build.0 = Release|Win32
+		{77A832ED-7CFC-4A5A-B509-34088275CE5E}.Debug|x86.ActiveCfg = Debug|Win32
+		{77A832ED-7CFC-4A5A-B509-34088275CE5E}.Debug|x86.Build.0 = Debug|Win32
+		{77A832ED-7CFC-4A5A-B509-34088275CE5E}.Release|x86.ActiveCfg = Release|Win32
+		{77A832ED-7CFC-4A5A-B509-34088275CE5E}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
